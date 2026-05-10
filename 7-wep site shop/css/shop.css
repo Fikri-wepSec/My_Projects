@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.item{
+    min-height: 365px;
+    border: none;
+}
+body{
+    overflow-x: hidden;
+background:  #a18954;
+background-repeat: no-repeat;
+
+}
+.con{
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+ header{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+   background-color: rgb(36, 33, 5);
+   z-index: 1;
+}
+ header ul{
+    display: flex;
+    gap: 25px;
+}
+ header ul li a{
+    text-decoration: none;
+    color: rgb(248, 196, 84);
+    transition: 0.5s;
+
+}
+ header ul li a:hover{
+color: white;
+}
+
+ header ul li .out{
+color: black;
+font-size: 19px;
+}
+  ul .liout{
+    width: 70px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+   margin-top: 10px;
+    background-color: #f0cb25;
+color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    font-size: 17px;
+}
+  ul .liout:hover{
+    background-color:#9b7b14;
+color: rgb(255, 255, 255);
+}
+
+
+
+ header ul li{
+list-style: none;
+}
+ header .logo a{
+    color: #e6d25f;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 30px;
+}
+ .sidbar{
+         height: 600px;
+    width: 150px;
+    overflow: hidden;
+  position: relative;
+    right: -110px;
+    margin:0;
+border-radius: 5px;
+box-shadow: -5px 5px 5px 2px black;
+transition: 1s;
+background-color: #3a3113;
+}
+.sidbar:hover{
+        height: 600px;
+    width: 150px;
+    border-radius: 15px;
+    position: relative;
+    right: 0;
+    margin-left: 20px;
+}
+.sidbar:hover .brodict{
+    justify-self: self-start;
+}
+.sidbar ul{
+    overflow: hidden;
+    height: 100%;
+list-style-type: none;
+display: flex;
+flex-flow: column wrap;
+padding: 10px;
+align-items: center;
+
+}
+.sidbar ul li{
+    padding-top: 20px;
+}
+.sidbar ul li a{
+text-decoration: none;
+color: aliceblue;
+transition: 0.5s;
+font-size: 16px;
+letter-spacing: 0.5px;
+}
+ .sidbar ul li a:hover{
+color: rgb(224, 202, 1);
+}
+ .header ul li a:hover{
+    color: red;
+}
+.brodict{
+    width: 100%;
+    justify-self: center;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px,auto));
+gap: 20px;
+padding: 10px;
+}
+ .brodict .item{
+border-radius: 15px;
+box-shadow: 0 5px 15px black;
+color: white;
+display: flex;
+align-items: center;
+flex-flow: column wrap;
+}
+footer{
+    width: 100%;
+    background-color: rgb(29, 21, 4);
+    height: 60px;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+text-transform: capitalize;
+}
+.pro{
+    border-radius: 20px;
+    width: 100%;
+    color: red;
+}
+.item{
+    background-color: rgba(255, 255, 255, 0.363);
+    padding: 15px;
+}
+.brodict a{
+
+    text-decoration: none;
+    transition: 1s;
+    border-radius: 15px;
+    text-decoration-thickness: 0.01px;
+}
+.item p{
+    color: #331b41;
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: .01em;
+}
+ .brodict a:hover{
+text-decoration: none;
+    color: #000;
+    scale: 1.080 1.080;
+}
+footer{
+    line-height: 1.2em;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+footer span{
+  font-size: 15px;
+  margin: 10px;
+}
+
+.n{
+  color: rgb(53, 53, 209);
+}
+.socialicon i{
+   margin-right: 5px;
+   font-size: 1.5em;
+   transition: .5s;
+}
+.socialicon i:hover{
+    color: #f09125;
+}
+
+.sidbar h2{
+    color: #fde162;
+    font-weight: 400;
+ margin-right: 28px;
+}
+.brodict{
+    padding: 0;
+    margin: 0;
+    margin-left: 30px;
+}
+header{
+    padding: 20px;
+    padding-left: 40px;
+}
+.ser{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.search{
+    width: 450px;
+    height: 40px;
+    background-color: white;
+      border-radius: 30px;
+      display: flex;
+      justify-content: center;
+      box-shadow: 0 5px 10px black;
+}
+.search input{
+    border-radius: 10px;
+    height: 95%;
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 300;
+     
+}
+.search button{
+    border: none;
+    font-weight: 300;
+    width: 40px;
+    background-color: white;
+    font-size: 18px;
+}
+.con h2{
+justify-self: self-end;
+}
+body{
+  position: relative;
+  min-height: 130vh;
+  display: flex;
+flex-flow: column;
+justify-content: space-between;
+}
+
+@media (max-width:1050px)  {
+
+    .sidbar{
+   right: 0;
+   width: 15%;
+ margin-left: 20px;
+border-radius: 15px;
+    }
+    .brodict{
+    width: 100%;
+    justify-self: center;
+display: grid;
+grid-template-columns: repeat(2, minmax(100px,auto));
+gap: 30px;
+padding: 10px;
+}
+
+}
+
+
+@media (max-width:836px) {
+    .brodict{
+    width: 100%;
+    justify-self: center;
+display: grid;
+grid-template-columns: repeat(2, minmax(70px,300px));
+gap: 30px;
+padding: 10px;
+}
+.sidbar{
+    width: 22%;
+}
+.sidbar h2{
+    text-align: center;
+  
+}
+}
+
+
+@media (max-width:623px) {
+.sidbar{
+    width: 30%;
+}
+    .brodict{
+        justify-self: center;
+    width: 100%;
+    justify-self: center;
+display: grid;
+grid-template-columns: repeat(1, minmax(70px,100%));
+gap: 30px;
+padding: 10px;
+}
+.brodict a div img{
+width: 100%;
+height: 200px;
+}
+
+}
