@@ -63,6 +63,15 @@ An advanced interactive website combining modern design and excellent user exper
 
 ---
 
+### 7. [site_Shop](https://Fikri-wepSec.github.io/My_Projects/site_Shop/)
+**Project Description:**  
+This is a basic web shop salling cumputer and labtop and divices  
+**Benefit:** Showcases full design and development capabilities using HTML, CSS, and JavaScript.  
+**Technologies Used:** HTML, CSS, JavaScript  
+**Live Demo:** [Xyura](https://Fikri-wepSec.github.io/My_Projects/site_Shop/)
+
+---
+
 ## Contact Me 📬
 - GitHub: [FAKRY333](https://github.com/Fikri-wepSec/My_Projects)  
 - Facebook: [Fikri Mohamed](https://www.facebook.com/fkry.mhmd.621035)
