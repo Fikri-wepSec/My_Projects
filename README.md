@@ -9,12 +9,12 @@ This repository contains some projects I designed that are vulnerable to various
 
 ## Laps and projects 📚
 
-### 1. [Counter](https://fakry333.github.io/My_Projects/Counter)
+### 1. [Counter](https://Fikri-wepSec.github.io/My_Projects/Counter)
 **Project Description:**  
 An interactive page that allows users to write articles or texts and automatically counts the number of words and characters.  
 **Benefit:** Perfect for bloggers and students to track text length before publishing.  
 **Technologies Used:** HTML, CSS, JavaScript  
-**Live Demo:** [Counter](https://fakry333.github.io/My_Projects/Counter)
+**Live Demo:** [Counter](https://Fikri-wepSec.github.io/My_Projects/Counter)
 
 ---
 
